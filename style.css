@@ -83,6 +83,7 @@ body {
 .info-boxes {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
 .info-box {
@@ -125,3 +126,46 @@ body {
     justify-content: right;
     margin: 0;
 }
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-container {
+    margin: 80px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    flex-basis: 60%;
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.call-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.call-text {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
+}
+.call-subtext {
+    color: #f9faf8;
+    font-size: 18px;
+    margin: 0;
+}
+.call-button {
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 5px 30px 5px 30px;
+}
+
