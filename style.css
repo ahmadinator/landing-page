@@ -169,3 +169,14 @@ body {
     padding: 5px 30px 5px 30px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 30px;
+}
+.copyright {
+    color: white;
+    font-size: 18px;
+}
