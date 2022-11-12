@@ -69,3 +69,59 @@ body {
     padding: 10px 30px 10px 30px;
     align-self: flex-start;
 }
+
+.information {
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+}
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 200px;
+}
+.info-box-border {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+.info-box-subtext {
+    font-size: 18px;
+    color: #6C757F; 
+    text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+.quote-main {
+    display: flex;
+    flex-basis: 65%;
+    flex-direction: column;
+}
+#quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+}
+#quote-author {
+    display: flex;
+    justify-content: right;
+    margin: 0;
+}
